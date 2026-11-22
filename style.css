@@ -1,0 +1,255 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.college-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.college-name h1 {
+    margin: 0;
+}
+
+.college-name p {
+    margin: 5px 0 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #064987;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 18px 65px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #0785df;
+}
+
+
+.banner {
+    padding: 35px 5%;
+    height: 210px;
+    color: white;
+    background-image: linear-gradient(
+        to right,
+        rgba(4, 40, 91, 0.95),
+        rgba(4, 40, 91, 0.2)
+    ),
+    url(pragati-engineering-college-east-godavari-255347.webp);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.banner h2 {
+    font-size: 42px;
+}
+
+.banner h2 span {
+    color: yellow;
+}
+
+.banner p {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 5%;
+    background-color: white;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about h2,
+.courses h2,
+.registration h2,
+.side-box h2 {
+    font-size: 30px;
+    color: #102c67;
+    border-left: 5px solid #1456a0;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.about img {
+    width: 45%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.courses {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 5%;
+    background-color: #e5edff;
+}
+
+.course-list {
+    flex: 1;
+    border-right: 2px solid #5380bb;
+    padding-right: 30px;
+}
+
+.course-list ul {
+    padding-left: 30px;
+}
+
+.course-list li {
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 30px 5%;
+}
+
+.registration {
+    flex: 2;
+}
+
+.registration form {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.form-row b {
+    width: 160px;
+}
+
+.form-row input[type="text"],
+.form-row select {
+    padding: 2px;
+    width: 500px;
+}
+
+aside {
+    flex: 1;
+}
+
+.side-box {
+    background-color: #f0f4ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.side-box h2 {
+    margin-bottom: 20px;
+}
+
+.motto-text {
+    text-align: center;
+}
+
+
+
+
+footer {
+    background-color: #0c2b53;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 25px 5%;
+}
+
+.footer-box {
+    flex: 1;
+    padding: 10px;
+    border-right: 2px solid #7891b4;
+}
+
+.footer-box:last-child {
+    border-right: none;
+}
+
+.footer-box h3 {
+    margin-bottom: 10px;
+}
+
+.footer-box p {
+    line-height: 1.5;
+}
+
+.social {
+    font-size: 24px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 15px;
+    background-color: #071c39;
+}
+
+
+
+
+
+
+
+
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    color: #0c2b53;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.social-icon:hover {
+    background-color: #0785df;
+    color: white;
+}
